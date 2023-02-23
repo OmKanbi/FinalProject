@@ -1,0 +1,27 @@
+[
+    {
+        "_id": 1,
+        "category": "Suits",
+        "Image": "https://i.ibb.co/pR4SDQJ/suits.webp"
+    },
+    {
+        "_id": 2,
+        "category": "Dress Shirts",
+        "Image": "https://i.ibb.co/NZJzwRN/shirts.webp"
+    },
+    {
+        "_id": 3,
+        "category": "Chinos",
+        "Image": "https://i.ibb.co/zxBXYjk/chinos.webp"
+    },
+    {
+        "_id": 4,
+        "category": "Polo Shirts",
+        "Image": "https://i.ibb.co/tHZ8Q4j/polo.webp"
+    },
+    {
+        "_id": 5,
+        "category": "T-Shirts",
+        "Image": "https://i.ibb.co/VQb4sB8/tshirt.webp"
+    }
+]

@@ -1,0 +1,252 @@
+[
+    {
+        "_id": 1,
+        "product_name": "Gray blazer with glen check pattern",
+        "category": "suits",
+        "category_id": 1,
+        "product_id": 1,
+        "Price": 284,
+        "description": "Gray blazer in 100% wool with glen check pattern. Designed with a peak lapel, single vent at back and front pockets. Style it with black or gray suit trousers for a sharp and well dressed look. Made to your measurements",
+        "Image": "https://i.ibb.co/MfCCT7q/suit1.webp"
+    },
+    {
+        "_id": 2,
+        "product_name": "Brown suit with double breasted suit jacket",
+        "category": "suits",
+        "category_id": 1,
+        "product_id": 2,
+        "Price": 349,
+        "description": "Two-piece suit with double breasted suit jacket. A classic brown color with thin red and blue lines to create a discrete and interesting check pattern in this 100% wool twill.The double breasted jacket has a peak lapel, single vent at back and front pockets with both pocket lids and a ticket pocket. The suit trousers are designed with a hidden waist buttoning, straight pockets at front and one pocket at back. Wear this outfit with a white business shirt for the perfect look. Made to your measurements.",
+        "Image": "https://i.ibb.co/gZm5Ghc/suit2.webp"
+    },
+    {
+        "_id": 3,
+        "product_name": "Three-piece classic suit in black fine twill with stretch",
+        "category": "suits",
+        "category_id": 1,
+        "product_id": 3,
+        "Price": 500,
+        "description": "Three-piece classic suit in black fine twill with stretch. The perfect suit for both formal and business events. The jacket has a classic standard lapel, double vent at back and front pockets with pocket lids. The suit trousers are designed with a hidden waist buttoning, straight pockets at front and two pockets at back. For a high end look wear the waistcoat under the suit jacket and style it with a tie or bowtie. Made to your measurements.",
+        "Image": "https://i.ibb.co/LS3YSwM/suit3.webp"
+    },
+    {
+        "_id": 4,
+        "product_name": "Beige melange wool blazer",
+        "category": "suits",
+        "category_id": 1,
+        "product_id": 4,
+        "Price": 284,
+        "description": "Heavy wool blazer in beige melange herringbone weave. Designed with standard lapel, single vent at back and front pockets with pocket lids. Wear it with black suit trousers or chinos for a well dressed look. Made to your measurements.",
+        "Image": "https://i.ibb.co/8Pjyjhw/suit4.webp"
+    },
+    {
+        "_id": 5,
+        "product_name": "Two-piece suit in red melange",
+        "category": "suits",
+        "category_id": 1,
+        "product_id": 5,
+        "Price": 559,
+        "description": "Two-piece classic tuxedo in black fine twill for the formal event. The jacket has a classic shawl lapel in satin and satin dressed buttons and pocket frames. The tuxedo trousers are designed with a hidden waist buttoning, straight pockets at front and one pockets at back. The signature satin stripe is sewn along the outside of the pants. Wear it with a tuxedo shirt and a black bowtie. Made to your measurements.",
+        "Image": "https://i.ibb.co/gZW2CRb/TS-alsace-red-81.webp"
+    },
+    {
+        "_id": 6,
+        "product_name": "White business shirt",
+        "category": "shirts",
+        "category_id": 2,
+        "product_id": 1,
+        "Price": 110,
+        "description": "Our signature twill with great luster and comfort is an essential item in every man’s wardrobe. This classic piece is ideal for any occasion. Made to your measurements.",
+        "Image": "https://i.ibb.co/mXGdtYc/Dress-Shirt1.webp"
+    },
+    {
+        "_id": 7,
+        "product_name": "Navy striped business shirt",
+        "category": "shirts",
+        "category_id": 2,
+        "product_id": 2,
+        "Price": 110,
+        "description": "Rames shirt in a fine navy blue-striped twill, which gives a luxurious feeling. Rames shirt is both a superior and stylish choice every day of the week! Made to your measurements.",
+        "Image": "https://i.ibb.co/86mBsHy/Dress-Shirt2.webp"
+    },
+    {
+        "_id": 8,
+        "product_name": "Black luxurious business shirt",
+        "category": "shirts",
+        "category_id": 2,
+        "product_id": 3,
+        "Price": 110,
+        "description": "Business shirt in black golf ball dobby weave, which refers to the fabric structure resembling the structure on a golf ball. With its exclusive luster and smooth surface this is a dress shirt that simply has to be experienced. Make Montclair your next stylish business shirt or let it be the focus point of any outfit, any day. This is a dress shirt guaranteed to be a new favorite. Made to your measurements.",
+        "Image": "https://i.ibb.co/M8v0J2B/Dress-Shirt3.webp"
+    },
+    {
+        "_id": 9,
+        "product_name": "Burgundy business shirt",
+        "category": "shirts",
+        "category_id": 2,
+        "product_id": 4,
+        "Price": 104,
+        "description": "A wonderful satin cotton shirt in burgundy. Satin weave that is quite opaque, drapes very well and has a subtle luster that makes it look and feel fantastic. Cut away superior collar and matching burgundy buttons to give an exclusive look. Easy iron. Made to your measurements.",
+        "Image": "https://i.ibb.co/r5YJtMd/Dress-Shirt4.webp"
+    },
+    {
+        "_id": 10,
+        "product_name": "Gray checkered dress shirt",
+        "category": "shirts",
+        "category_id": 2,
+        "product_id": 5,
+        "Price": 79,
+        "description": "Casual plaid shirt in gray and navy. A light twill shirt for a more relaxed occasion. The brushed finish makes it soft and comfortable to wear. Pair it with navy chinos for a casual but well dressed look. Made to your measurements.",
+        "Image": "https://i.ibb.co/2qZZQgP/Dress-Shirt5.webp"
+    },
+    {
+        "_id": 11,
+        "product_name": "Beige chinos",
+        "category": "chinos",
+        "category_id": 3,
+        "product_id": 1,
+        "Price": 89,
+        "description": "Beige chinos in 100% cotton, woven in durable twill weave. The chinos have a metal zipper fly, straight side pockets and one back vent pocket. Add a personal touch by embroider your initials on these chinos. Made to your measurements.",
+        "Image": "https://i.ibb.co/0rMgkxp/chinos1.webp"
+    },
+    {
+        "_id": 12,
+        "product_name": "Navy chinos",
+        "category": "chinos",
+        "category_id": 3,
+        "product_id": 2,
+        "Price": 89,
+        "description": "Navy chinos in 100% cotton, woven in durable twill weave. The chinos have a metal zipper fly, beveled side pockets and back vent pockets with loop and button. Add a personal touch by embroider your initials on these chinos. Made to your measurements.",
+        "Image": "https://i.ibb.co/m9WWhT5/chinos2.webp"
+    },
+    {
+        "_id": 13,
+        "product_name": "Black chinos",
+        "category": "chinos",
+        "category_id": 3,
+        "product_id": 3,
+        "Price": 89,
+        "description": "Black chinos in 100% cotton, woven in durable twill weave. The chinos have a metal zipper fly, beveled side pockets and back vent pockets. Add a personal touch by embroider your initials on these chinos. Made to your measurements.",
+        "Image": "https://i.ibb.co/qCpvzCX/chinos3.webp"
+    },
+    {
+        "_id": 14,
+        "product_name": "Rust chinos",
+        "category": "chinos",
+        "category_id": 3,
+        "product_id": 4,
+        "Price": 89,
+        "description": "Rust chinos in 100% cotton, woven in durable twill weave. The chinos have a metal zipper fly, straight side pockets and one back vent pocket. Add a personal touch by embroider your initials on these chinos. Made to your measurements.",
+        "Image": "https://i.ibb.co/c3JMn5n/chinos4.webp"
+    },
+    {
+        "_id": 15,
+        "product_name": "Dark khaki chinos",
+        "category": "chinos",
+        "category_id": 3,
+        "product_id": 5,
+        "Price": 89,
+        "description": "Dark khaki chinos in 100% cotton, woven in durable twill weave. The chinos have a metal zipper fly, beveled side pockets and back vent pockets with loop and button. Add a personal touch by embroider your initials on these chinos. Made to your measurements.",
+        "Image": "https://i.ibb.co/pXMM40Y/chinos5.webp"
+    },
+    {
+        "_id": 16,
+        "product_name": "Wine red polo shirt",
+        "category": "polo",
+        "category_id": 4,
+        "product_id": 1,
+        "Price": 59,
+        "description": "Wine red short-sleeved polo shirt in 100% pima cotton. A relaxed yet dressy look with its shirt collar and a slit hem. Made to your measurements.",
+        "Image": "https://i.ibb.co/Wk4s3Bm/polo1.webp"
+    },
+    {
+        "_id": 17,
+        "product_name": "Dark brown polo shirt",
+        "category": "polo",
+        "category_id": 4,
+        "product_id": 2,
+        "Price": 59,
+        "description": "Dark brown short-sleeved polo shirt in 100% pima cotton. A relaxed yet dressy look with its shirt collar and a slit hem. Made to your measurements.",
+        "Image": "https://i.ibb.co/Fm7LbsL/polo2.webp"
+    },
+    {
+        "_id": 18,
+        "product_name": "Navy melange polo shirt",
+        "category": "polo",
+        "category_id": 4,
+        "product_id": 3,
+        "Price": 69,
+        "description": "Navy melange short-sleeved polo shirt in 100% pima cotton. This polo will give an incredibly soft feeling with a modern look. Dress down with a pair of chinos or up with a blazer for the ultimate stylish look. Made to your measurements.",
+        "Image": "https://i.ibb.co/YDqzfkn/polo3.webp"
+    },
+    {
+        "_id": 19,
+        "product_name": "White polo shirt",
+        "category": "polo",
+        "category_id": 4,
+        "product_id": 4,
+        "Price": 59,
+        "description": "Classic white short-sleeved polo shirt in 100% pima cotton. A relaxed yet dressy look with its shirt collar, chest pocket and a dovetail bottom cut. Made to your measurements.",
+        "Image": "https://i.ibb.co/Rg8FcFV/polo4.webp"
+    },
+    {
+        "_id": 20,
+        "product_name": "Sky blue polo shirt",
+        "category": "polo",
+        "category_id": 4,
+        "product_id": 5,
+        "Price": 59,
+        "description": "Sky blue short-sleeved polo shirt in 100% pima cotton. A relaxed yet dressy look with its shirt collar, chest pocket and a dovetail bottom cut. Made to your measurements.",
+        "Image": "https://i.ibb.co/d2wqpg9/polo5.webp"
+    },
+    {
+        "_id": 21,
+        "product_name": "Navy T-Shirt",
+        "category": "tshirts",
+        "category_id": 5,
+        "product_id": 1,
+        "Price": 39,
+        "description": "Parker Navy is a medium weight single jersey knit with an extra soft surface for the ideal comfortable T-Shirt. The natural stretch given by the knitted technique keeps the T-Shirt in shape without compromising with the comfort. All our fabrics are pre washed to remove shrinkage and potential twisting before we cut your T-Shirt. Made to your measurements.",
+        "Image": "https://i.ibb.co/DgP2pjd/tshirt1.webp"
+    },
+    {
+        "_id": 22,
+        "product_name": "Mauve T-Shirt",
+        "category": "tshirts",
+        "category_id": 5,
+        "product_id": 2,
+        "Price": 39,
+        "description": "Holland mauve is a soft and smooth single jersey with a slightly textured in 100% pima cotton. It's comfortable and stretchy, ready to wear under your favorite shirt or just as it is! The mauve color belongs to our limited edition selection. Made to your measurements.",
+        "Image": "https://i.ibb.co/k0dZtHb/tshirt2.webp"
+    },
+    {
+        "_id": 23,
+        "product_name": "Summer blue T-Shirt",
+        "category": "tshirts",
+        "category_id": 5,
+        "product_id": 3,
+        "Price": 39,
+        "description": "Holland mauve is a soft and smooth single jersey with a slightly textured in 100% pima cotton. It's comfortable and stretchy, ready to wear under your favorite shirt or just as it is! The mauve color belongs to our limited edition selection. Made to your measurements.",
+        "Image": "https://i.ibb.co/VmRYNsb/tshirt3.webp"
+    },
+    {
+        "_id": 24,
+        "product_name": "Soft pink T-Shirt",
+        "category": "tshirts",
+        "category_id": 5,
+        "product_id": 4,
+        "Price": 39,
+        "description": "Parker soft pink is a medium weight single jersey knit with an extra soft surface for the ideal comfortable t-shirt. The natural stretch given by the knitted technique keeps the t-shirt in shape without compromising with the comfort. All our fabrics are pre washed to remove shrinkage and potential twisting before we cut your t-shirt. Made to your measurements.",
+        "Image": "https://i.ibb.co/X7svQb8/tshirt4.webp"
+    },
+    {
+        "_id": 25,
+        "product_name": "Charcoal t-shirt",
+        "category": "tshirts",
+        "category_id": 5,
+        "product_id": 5,
+        "Price": 39,
+        "description": "Parker Charcoal is a medium weight single jersey knit with an extra soft surface for the ideal comfortable t-shirt. The natural stretch given by the knitted technique keeps the t-shirt in shape without compromising with the comfort. All our fabrics are pre washed to remove shrinkage and potential twisting before we cut your t-shirt. Made to your measurements.",
+        "Image": "https://i.ibb.co/5hYcy8g/tshirt5.webp"
+    }
+]
