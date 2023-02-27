@@ -31,15 +31,6 @@ app.get('/products',(req,res) => {
         res.send(result)
     })
 })
-
-app.get('/products/:category',(req,res) => {
-    let category = req.params.category
-    db.collection('products').find({category:category}).toArray((err,result) => {
-        if(err) throw err;
-        res.send(result)
-    })
-})
-
 app.get('/products/:category',(req,res) => {
     let query = {};
     let category = req.params.category
@@ -59,6 +50,16 @@ app.get('/products/:category',(req,res) => {
        res.send(result)
    })
 })
+
+app.get('/products/:category',(req,res) => {
+    let category = req.params.category
+    db.collection('products').find({category:category}).toArray((err,result) => {
+        if(err) throw err;
+        res.send(result)
+    })
+})
+
+
 
 app.get('/products/:category/:productid',(req,res) => {
     let category = req.params.category
