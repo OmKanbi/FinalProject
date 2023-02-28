@@ -31,18 +31,21 @@ app.get('/products',(req,res) => {
         res.send(result)
     })
 })
+
 app.get('/products/:category',(req,res) => {
     let query = {};
     let category = req.params.category
     let lcost = Number(req.query.lcost);
     let hcost = Number(req.query.hcost);
     let sort = {Price:1};
-    if(req.query.sort){
-        sort={Price:req.query.sort}
-    }else if(lcost && hcost){
+     if(lcost && hcost){
        query={
            category : category,
            $and:[{Price:{$gt:lcost,$lt:hcost}}]
+        }
+    } else {
+        query={
+            category: category
         }
     }
     db.collection('products').find(query).sort(sort).toArray((err,result) => {
@@ -50,16 +53,6 @@ app.get('/products/:category',(req,res) => {
        res.send(result)
    })
 })
-
-app.get('/products/:category',(req,res) => {
-    let category = req.params.category
-    db.collection('products').find({category:category}).toArray((err,result) => {
-        if(err) throw err;
-        res.send(result)
-    })
-})
-
-
 
 app.get('/products/:category/:productid',(req,res) => {
     let category = req.params.category
