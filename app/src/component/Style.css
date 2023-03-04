@@ -125,7 +125,7 @@ button:hover {
 .navbar {
     display: flex;
     background-color: var(--secondary-bg);
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
     font-size: 14px;
@@ -167,7 +167,7 @@ button:hover {
     width: 100%;
     gap: 2rem;
     height: 100vh;
-    background-color: #0000006c;
+    background-color: var(--secondary-bg);
     align-items: end;
     z-index: 1;
 }
@@ -406,6 +406,9 @@ button:hover {
     border-radius: 5px;
     margin-bottom: 1rem;
 }
+.product-wrapper button {
+    margin: 0.2rem 0;
+}
 
 /* Login/Register */
 .error {
@@ -427,6 +430,10 @@ button:hover {
     padding: 3rem;
 }
 
+.lr-wrapper img {
+    width: 100%;
+}
+
 .lr-content {
     display: flex;
     flex-direction: column;
@@ -446,11 +453,13 @@ table {
 
 table {
     width: 100%;
+    overflow: auto;
 }
 
 th,
 td {
     padding: 1rem;
+    font-size: 12px;
 }
 
 td {
@@ -516,6 +525,9 @@ input[type="search"] {
     .navbar {
         justify-content: space-between;
     }
+    .lr-wrapper, .orders-wrapper {
+        padding: 3rem 1rem;
+    }
 
     .navigation {
         display: none;
@@ -576,11 +588,17 @@ input[type="search"] {
         height: 100%;
 
     }
+    table {
+        display: block;
+    }
 }
 
 @media (max-width:670px) {
     h1 {
         font-size: 24px;
+    }
+    .lr-content {
+        width: auto;
     }
 
     .categories-wrapper {

@@ -7,19 +7,25 @@ const placeOrder = "https://mtw.onrender.com/placeorder"
 class PlaceOrder extends Component {
     constructor(props) {
         super(props)
-        let userData = JSON.parse(sessionStorage.getItem('userInfo'))
-        this.state = {
-            id: Math.floor(Math.random() * 10000),
-            name: userData.name,
-            email: userData.email,
-            waist : userData.waist,
-            inseam : userData.inseam,
-            chest : userData.chest, 
-            cost: 0,
-            phone: userData.phone,
-            address: '',
-            Item: ''
+        
+        if (sessionStorage.getItem('ltk') == null) {
+            console.log('login first')
+        } else {
+            let userData = JSON.parse(sessionStorage.getItem('userInfo'))
+            this.state = {
+                id: Math.floor(Math.random() * 10000),
+                name: userData.name,
+                email: userData.email,
+                waist: userData.waist,
+                inseam: userData.inseam,
+                chest: userData.chest,
+                cost: 0,
+                phone: userData.phone,
+                address: '',
+                Item: ''
+            }
         }
+
     }
 
     handleChange = (event) => {
@@ -38,7 +44,7 @@ class PlaceOrder extends Component {
             body: JSON.stringify(obj)
         })
             .then(console.log('order added'))
-        // .then(this.props.history.push('/viewBooking'))
+            .then(this.props.history.push('/viewBooking'))
     }
 
 
@@ -49,7 +55,6 @@ class PlaceOrder extends Component {
                     <div key={item._id}>
                         <img src={item.Image} alt={item.product_name} />
                         <h3>{item.product_name}</h3>
-                        <h4><i class="fa-sharp fa-solid fa-dollar-sign"></i> {item.Price}</h4>
                     </div>
                 )
             })
@@ -62,33 +67,30 @@ class PlaceOrder extends Component {
         if (sessionStorage.getItem('ltk') == null) {
             return (
                 <>
-                <Header />
-                    <center>
+                    <Header />
+                    <center class='lr-wrapper'>
                         <h2>Login First To Place Booking</h2>
                     </center>
-
                 </>
             )
         }
         return (
             <>
-            <Header />
-                <h1>Shopping Cart</h1>
-                <form action="http://localhost:4100/paynow" method="POST">
-                    <input type="hidden" name="cost" value={this.state.cost} />
-                    <input type="hidden" name="id" value={this.state.id} />
-                    <label htmlFor="fname" className='control-label'>FirstName</label>
-                    <input className='form-control' id="fname" name="name" value={this.state.name} onChange={this.handleChange} />
-                    <label htmlFor="email" className='control-label'>Email</label>
-                    <input className='form-control' id="email" name="email" value={this.state.email} onChange={this.handleChange} />
-                    <label htmlFor="phone" className='control-label'>Phone</label>
-                    <input className='form-control' id="phone" name="phone" value={this.state.phone} onChange={this.handleChange} />
-                    <label htmlFor="address" className='control-label'>Address</label>
-                    <input className='form-control' id="address" name="address" value={this.state.address} onChange={this.handleChange} />
-                    {this.renderItem(this.state.Item)}
-                    <h2>Total Price is Rs.{this.state.cost}</h2>
-                    <button className='btn btn-success' onClick={this.checkout} type="submit">PlaceOrder</button>
-                </form>
+                <Header />
+                <div class="lr-wrapper">
+                    <h1>Shopping Cart</h1>
+                    <form action="http://localhost:4100/paynow" method="POST" class="lr-content">
+                        <input type="hidden" name="cost" value={this.state.cost} />
+                        <input type="hidden" name="id" value={this.state.id} />
+                        <input id="fname" name="name" placeholder='name' value={this.state.name} onChange={this.handleChange} />
+                        <input id="email" name="email" placeholder='email' value={this.state.email} onChange={this.handleChange} />
+                        <input id="phone" name="phone" placeholder='phone no.' value={this.state.phone} onChange={this.handleChange} />
+                        <input id="address" name="address" placeholder='address' value={this.state.address} onChange={this.handleChange} />
+                        {this.renderItem(this.state.Item)}
+                        <h2>Total Price is ${this.state.cost}</h2>
+                        <button className='btn btn-success' onClick={this.checkout} type="submit">Checkout</button>
+                    </form>
+                </div>
             </>
         )
     }
@@ -111,7 +113,7 @@ class PlaceOrder extends Component {
                     totalPrice = totalPrice + parseFloat(item.Price);
                     return 'ok'
                 })
-                
+
                 this.setState({ Item: data, cost: totalPrice })
             })
     }

@@ -1,19 +1,19 @@
 import React,{Component} from 'react';
 import Header from '../Header';
-const regurl = "https://localhost:5000/api/auth/register"
+const regurl = "https://mtw2.onrender.com/api/auth/register"
 
 class Register extends Component {
     constructor(props) {
         super(props)
 
         this.state={
-            name:'om',
-            waist : 32,
-            inseam : 31,
-            chest : 40, 
-            email:'om@gmail.com',
-            password:'12345678',
-            phone:41243424214,
+            name:'',
+            waist : '',
+            inseam : '',
+            chest : '', 
+            email:'',
+            password:'',
+            phone:'',
         }
     }
 

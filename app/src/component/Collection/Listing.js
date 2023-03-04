@@ -12,12 +12,15 @@ class Listing extends Component {
             productCategory: ''
         }
     }
+    setDataPerFilter = (data) => {
+        this.setState({productCategory:data})
+    }
     render() {
         return (
            <>
             <Header />
             <div class="listing-section-wrapper">
-                <Filter />
+            <Filter productCategory={this.props.match.params.productCategory} productPerCost={(data) => {this.setDataPerFilter(data)}}/>
                 <ListingDisplay listData={this.state.productCategory} />
                 </div>
            </>

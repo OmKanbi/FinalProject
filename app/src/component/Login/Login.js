@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../Header';
-const logurl = "http://localhost:5000/api/auth/login"
+const logurl = "https://mtw2.onrender.com/api/auth/login"
 
 class Login extends Component {
     constructor(props) {
